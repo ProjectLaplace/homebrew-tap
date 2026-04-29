@@ -1,16 +1,18 @@
 # ProjectLaplace Homebrew Tap
 
-Homebrew tap for projects under the [ProjectLaplace](https://github.com/ProjectLaplace) organization.
+Homebrew tap for [ProjectLaplace](https://github.com/ProjectLaplace).
 
-> 占位文档。首个 cask 将随 [Linguist Zixia Input](https://github.com/ProjectLaplace/LinguistZixiaInput) 后续发布版本一同上线。
+> Tools that respect determinism where it exists: the immutability of the past, and predictability within your control.
 
 ## Usage
 
 ```bash
 brew tap ProjectLaplace/tap
-brew install --cask <package>
+brew install --cask <cask-name>
 ```
 
 ## Available Casks
 
-None yet.
+| Cask | Description |
+| ---- | ----------- |
+| [`linguist-zixia-input`](Casks/linguist-zixia-input.rb) | Linguist Zixia Input (紫霞输入法): Deterministic pinyin input method |
