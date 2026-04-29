@@ -1,8 +1,6 @@
 cask "linguist-zixia-input" do
   version "0.1.0"
-  # The release workflow replaces this placeholder with the actual SHA256 of
-  # the published artifact. :no_check must not ship in a tagged release.
-  sha256 :no_check
+  sha256 "49fa66625d4ccc168af9467287a39ed3b19bd4969d2ad41e0dac1bf3cb976953"
 
   url "https://github.com/ProjectLaplace/LinguistZixiaInput/releases/download/v#{version}/LinguistZixiaInput-v#{version}.zip"
   name "Linguist Zixia Input"
