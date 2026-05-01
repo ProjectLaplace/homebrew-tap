@@ -1,6 +1,6 @@
 cask "linguist-zixia-input" do
-  version "0.1.0"
-  sha256 "49fa66625d4ccc168af9467287a39ed3b19bd4969d2ad41e0dac1bf3cb976953"
+  version "0.1.1"
+  sha256 "4c5916da1e1993aa465a1f101592d5f8c75975eaa734ec4e7cfb48f27bcf2ec6"
 
   url "https://github.com/ProjectLaplace/LinguistZixiaInput/releases/download/v#{version}/LinguistZixiaInput-v#{version}.zip"
   name "Linguist Zixia Input"
